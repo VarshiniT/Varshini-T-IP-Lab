@@ -12,8 +12,7 @@ rotate_matrix = cv2.getRotationMatrix2D(center=center, angle=45, scale=1)
 
 rotated_image = cv2.warpAffine(src=image, M=rotate_matrix, dsize=(width, height))
 
-cv2.imshow('Original image', image)![148201346-cc96e108-c021-4fc1-ad38-02035fa21762](https://user-images.githubusercontent.com/95745335/148201464-9330fe3f-bdd0-4a87-8734-d5995c895a6f.png)
-
+cv2.imshow('Original image', image)
 cv2.imshow('Rotated image', rotated_image)
 
 cv2.waitKey(0)
