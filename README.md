@@ -1,4 +1,6 @@
 # Varshini-T-IP-Lab
+# 1. Write a program simulation and display of an image, negative of an image(Binary & Gray Scale)
+
 # Develop a program to perform linear transformation on a image.
 import cv2
 
